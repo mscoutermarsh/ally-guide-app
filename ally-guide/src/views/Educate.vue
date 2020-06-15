@@ -151,6 +151,7 @@ What is Juneeteenth?     <i class="fa fa-plus"></i>
   <a img src = "" href = ""> Say their names </a>
   <a img src = "" href = ""> Black Healing </a>
 </div>
+</div>
 </body>
 
 </template>
