@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
     <Header />
 
     <router-view />
@@ -14,7 +17,8 @@ import Footer from "@/components/partials/Footer.vue";
 
 export default {
   components: {
-    Header, Footer,
+    Header,
+    Footer
   }
 };
 </script>

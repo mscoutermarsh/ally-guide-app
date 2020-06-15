@@ -18,8 +18,8 @@ const routes = [
     component: Elevate
   },
   {
-    path: "/educate", 
-    name: "Educate", 
+    path: "/educate",
+    name: "Educate",
     component: Educate
   },
   {
@@ -30,7 +30,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue")
-  },
+  }
   // {
   //   path: "/elevate",
   //   name: "Elevate",
@@ -40,12 +40,11 @@ const routes = [
   //   component: () =>
   //     import(/* webpackChunkName: "about" */ "../views/Elevate.vue")
   // },
-  
 ];
 
 const router = new VueRouter({
-  routes : routes,
-  mode : 'history'
+  routes: routes,
+  mode: "history"
 });
 
 export default router;

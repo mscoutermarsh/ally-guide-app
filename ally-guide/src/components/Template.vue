@@ -1,16 +1,13 @@
 <template>
-    <p>Main Template</p>
+  <p>Main Template</p>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
-    }
+  data() {
+    return {};
   }
-}
+};
 </script>
 
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>

@@ -1,3 +1,4 @@
+
 <style>
 body{
   background-color: #924235;
@@ -154,6 +155,8 @@ What is Juneeteenth?     <i class="fa fa-plus"></i>
 
 </template>
 <script>
+import $ from 'jquery'
+
 $(document).ready(function() {
   $(".set > a").on("click", function() {
     if ($(this).hasClass("active")) {
